@@ -9,7 +9,7 @@ end
 new_array 
 end 
 
-def reduce(array, starting_point=0)
+def reduce(array, starting_point=nil)
   if starting_point
     sum = starting_point
     counter = 0 
